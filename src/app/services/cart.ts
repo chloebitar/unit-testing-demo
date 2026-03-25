@@ -8,4 +8,4 @@ export class Cart {
     return items.reduce((sum, item) => sum + item, 0);
   }
 }
-//git test pr
+//git test pr on main
