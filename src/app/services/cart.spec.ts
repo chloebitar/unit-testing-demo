@@ -16,7 +16,7 @@ describe('Cart', () => {
 
     it('should calculate total correctly', () => {
       const result = service.getTotal([10, 20, 30]);
-      expect(result).toBe(40);
+      expect(result).toBe(60);
     });
 
     it('should return 0 for empty array', () => {
