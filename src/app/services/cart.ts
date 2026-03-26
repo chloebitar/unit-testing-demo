@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class Cart {
   getTotal(items: number[]): number {
-    return items.reduce((sum, item) => sum + item, 0);
+    return items.reduce((sum,item)=>sum+item,0);
   }
 }
 //git test pr on main on test2

@@ -16,11 +16,12 @@ describe('Cart', () => {
 
     it('should calculate total correctly', () => {
       const result = service.getTotal([10, 20, 30]);
-      expect(result).toBe(60);
+      expect(result).toBe(50);
     });
 
     it('should return 0 for empty array', () => {
       const result = service.getTotal([]);
       expect(result).toBe(0);
     });
+
 });
